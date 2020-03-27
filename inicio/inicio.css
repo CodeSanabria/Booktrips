@@ -1,0 +1,56 @@
+* {
+    padding: 0px;
+    margin: 10px;
+}
+
+body {
+    background-image: url("hello1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imagen {
+    height: 30px;
+    width: 20%;
+}
+
+.hello {
+    height: 200px;
+}
+
+.part1 input {
+    padding: 10px;
+    font-family: Helvetica;
+    color: #fff;
+    background: #4216D6;
+    float: right;
+}
+
+.for {
+    margin: 150px;
+    width: 50%;
+    height: 280px;
+    float: center;
+    display: inline-block;
+}
+
+.titulo {
+    float: center;
+    font-family: Courier New;
+    color: #FFFFFF;
+    display: inline-block;
+}
+
+.hi {
+    padding: 10px;
+}
+
+.boton {
+    padding: 10px;
+    height: 40px;
+    width: 10%;
+    font-family: arial;
+    border-radius: 8px;
+    background: #3EA1DB;
+    color: #fff;
+}

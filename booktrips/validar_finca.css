@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-image: url(../booktrips/paisaje5.jpg) ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+     width:100%;
+    height: 100%; 
+}
+
+.menu {
+    width: 100%;
+    height: 80px;
+    background-color: #3EA1DB;
+    margin: 40px 20px 40px;
+    border-radius: 10px;
+}
+
+.button {
+    padding: 0;
+    float: right;
+    height: 100px;
+    margin-top: 25px;
+}
+.boton{
+    height: 50px;
+    width: 100%;
+
+}
+
+.button li {
+    display: inline;
+}
+
+.button li a {
+    font-family: Arial;
+    font-size: 11px;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #33CC33;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+.ini {
+    margin: 25px 20px 30px;
+    float: center;
+}
+
+input {
+    margin: 10px 10px 10px;
+    float: center;
+}
+
+li {
+    margin: 10px 10px 10px;
+}
+
+h3 {
+    margin: 10px 10px 10px;
+    color: white;
+    padding: 15px;
+
+}
+
+img {
+    border-radius: 15px;
+}
+.principal{
+    width: 100%;
+    height: 146px;
+    background:opacity;
+}
+.foto{
+    width: 18%;
+    height: 140px;
+    float: left;
+}
+.arriba {
+background:opacity;
+height: 140px;
+width: 77%;
+float: right;
+margin-bottom: 10px;
+}
+.arriba1{
+    background: rgb(69, 141, 223);
+    height: 40px;
+    width: 77%;
+    padding-bottom: 60px;
+    border-radius: 15px;
+    margin-bottom: 200px;
+
+    
+}
+.caja{
+    width: 100%;
+    height: 500px;
+   
+    ;
+}
+.cajita1{
+    width: 30%;
+    height: 500px;
+ background: rgb(37, 39, 163);
+ float: left;
+
+}
+.cajita2{
+    width: 70%;
+    height: 500px;
+    background: darkcyan;
+    float:right;
+    opacity: 0.8;
+  
+}
+.smoll_2{
+width: 100%;
+height: 125px;
+background: rgb(45, 10, 68);
+border-color: #aaaaaa;
+border-width: 1px;
+border-style: solid;
+color: white;
+opacity: none;
+}
+h2{
+    margin: 25px;
+   
+    color: blanchedalmond;
+   
+}
+.smoll:hover{
+    text-decoration:none;
+    background: rgb(132, 212, 11);
+    color:black;
+    text-decoration: none
+}
+.smoll a:hover{
+    text-decoration: none;
+    
+}
+.smoll a h2:hover{
+    color: black;
+   
+}
+.smoll a h2{
+    margin-top: 20px;
+}
+
+.smoll{
+    width: 100%;
+    height: 125px;
+    background: rgb(115, 163, 43);
+    border-color: #aaaaaa;
+    border-width: 1px;
+    border-style: solid;
+    color: white;
+    text-decoration: none;
+    
+    }
+
+    .par_1{
+        width: 100%;
+        height: 125px;
+        background: whitesmoke;
+      
+    }
+    
+    h1{
+        margin-left: 15px;
+        padding-top: 10px;
+    }
+    
+        
+    
+.par{
+    width: 100%;
+    height: 62.5px;
+    background: yellowgreen;
+    margin-right: 50px;
+    border: rgb(142, 152, 177) 1px solid;
+}.par a{
+    float: right;
+   margin-top: 10px;
+}

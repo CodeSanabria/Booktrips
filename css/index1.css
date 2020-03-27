@@ -1,0 +1,241 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    header {
+        width: 100%;
+        background: #3EA1DB;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    header img {
+        width: 20%;
+        border-radius: 10px;
+        margin: 10px 70px;
+    }
+    
+    header .contenedorIngreso {
+        margin: 25px;
+        width: 25%;
+        display: flex;
+    }
+    
+    header .contenedorIngreso a {
+        background: #000;
+        color: #fff;
+        text-decoration: none;
+        font-family: arial;
+        padding: 10px;
+        width: 250px;
+        text-align: center;
+        margin-right: 15px;
+    }
+    
+    header .contenedorIngreso .btn-registro {
+        background: #2C3A95;
+        color: #fff;
+        text-decoration: none;
+        font-family: arial;
+        padding: 10px;
+        width: 250px;
+        text-align: center;
+        margin-right: 15px;
+        border-radius: 8px;
+    }
+    
+    header .contenedorIngreso .btn-ingreso {
+        background: rgba(255, 255, 255, 0.3);
+        color: #fff;
+        border-radius: 8px;
+        border: 1px #fff solid;
+    }
+    /* ----------------------Seccion check-in------------ */
+    
+    section.checkIn {
+        background-image: url("../img/index1.png");
+        background-attachment: fixed;
+        background-size: 100vw 45vh;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 100%;
+        height: 160px;
+    }
+    
+    .checkIn .contenedorCheck {
+        margin: 50px;
+        width: 100%;
+    }
+    
+    .checkIn .contenedorCheck input {
+        font-family: Arial;
+        font-size: 17px;
+        padding: 15px;
+        margin-right: 45px;
+        background: rgba(255, 255, 255, 0.3);
+        color: #ffffff;
+        border-radius: 8px;
+        border: 1px #fff solid;
+        width: 25%;
+    }
+    
+    .checkIn .contenedorCheck .btn-buscar {
+        background: #4552A5;
+        color: #fff;
+        text-decoration: none;
+        font-family: arial;
+        padding: 10px;
+        text-align: center;
+        border-radius: 8px;
+    }
+    /* ----------------------Seccion lugares------------ */
+    
+    section.lugares {
+        width: 80%;
+        margin: auto;
+    }
+    
+    section.lugares .contenedorImagenes {
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    section.lugares .contenedorImagenes .cajaImagen {
+        width: 30%;
+        margin-bottom: 75px;
+    }
+    
+    section.lugares .contenedorImagenes .cajaImagen img {
+        width: 100%;
+        height: 200px;
+    }
+    
+    section.lugares .contenedorImagenes .cajaImagen p {
+        font-family: arial;
+        color: #2C3A95;
+        font-weight: 600;
+        margin: 10px 0;
+        font-size: 20px;
+    }
+    /* ----------------------Seccion banner------------ */
+    
+    section.banner {
+        background-image: url("../img/colombia1.png");
+        /* background-attachment: fixed; */
+        /* background-size: 100vw 45vh; */
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        width: 100%;
+        height: 230px;
+    }
+    
+    .banner .contenedorTexto {
+        margin-top: 35px;
+        font-family: arial;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .banner .contenedorTexto h2 {
+        font-style: italic;
+        font-weight: 100;
+        letter-spacing: 15px;
+        font-size: 50px;
+        color: #fff;
+    }
+    
+    .banner .contenedorTexto .btn {
+        margin-top: 35px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .banner .contenedorTexto .btn a {
+        background: #2C3A95;
+        color: #fff;
+        text-decoration: none;
+        font-family: arial;
+        padding: 15px;
+        text-align: center;
+        border-radius: 8px;
+        width: 50%;
+        margin: 0 4px;
+    }
+    /* ----------------------Seccion actividades------------ */
+    
+    .actividades {
+        width: 80%;
+        margin: auto;
+        font-family: arial;
+        margin-bottom: 60px;
+    }
+    
+    .actividades h2 {
+        text-align: center;
+        font-style: bold;
+        color: #4216D6;
+        margin: 25px 0;
+    }
+    
+    .actividades .contenedorActividades {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    
+    .actividades .contenedorActividades .cajaActividad {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 50%;
+        border: 1px #ddd solid;
+        /* height: 412px; */
+    }
+    
+    .actividades .contenedorActividades .cajaActividad .imagen {
+        width: 48%;
+    }
+    
+    .actividades .contenedorActividades .cajaActividad .texto {
+        width: 50%;
+    }
+    
+    .actividades .contenedorActividades .cajaActividad .texto h3 {
+        font-style: italic;
+        color: #4216D6;
+        padding: 15px 10px;
+    }
+    
+    .actividades .contenedorActividades .cajaActividad .texto p {
+        font-size: 18px;
+        padding: 15px;
+    }
+    
+    .actividades .contenedorActividades .cajaActividad .imagen img {
+        width: 100%;
+        height: 240px;
+    }
+    
+    footer {
+        background: #4216D6;
+        padding: 15px;
+    }
+    
+    footer p {
+        font-style: italic;
+        font-weight: 100;
+        letter-spacing: 15px;
+        font-size: 50px;
+        color: #fff;
+        text-align: center;
+    }
